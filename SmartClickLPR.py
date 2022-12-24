@@ -18,7 +18,7 @@ def SCLPR(link):
         "url": link}
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "efd8db2574mshc552705d758633ap12ba03jsnf72704c92b15",
+        "X-RapidAPI-Key": "****",
         "X-RapidAPI-Host": "license-plate-detection.p.rapidapi.com"
     }
 
