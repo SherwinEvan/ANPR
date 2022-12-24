@@ -16,7 +16,7 @@ def ALPR_detection(address):
         response = requests.post(
             'https://api.platerecognizer.com/v1/plate-reader/',
             files=dict(upload=fp),
-            headers={'Authorization': 'Token f5d4a8b73af2f410474674a197ac5bfa0d502d3a'})
+            headers={'Authorization': 'Token ****'})
     all_data = response.json()
 
     processed_data = None
