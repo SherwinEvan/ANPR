@@ -21,7 +21,7 @@ def OALPR(country, link):
     payload = "image_url="+link
     headers = {
         "content-type": "application/x-www-form-urlencoded",
-        "X-RapidAPI-Key": "efd8db2574mshc552705d758633ap12ba03jsnf72704c92b15",
+        "X-RapidAPI-Key": "****",
         "X-RapidAPI-Host": "openalpr.p.rapidapi.com"
     }
 
